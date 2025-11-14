@@ -12,4 +12,4 @@ Ce projet consiste à réaliser une page d'inscription inspirée de Facebook en 
 
 
         Ce projet ma permis de bien maitriser le html et le style css.dont j'ai eu a scender mon projet en div en classe avec des commande et en css avec aussi leur style respecter.
-        ![](./Capture%20d’écran%202025-11-14%20à%2000.33.25.png)
+![](./Capture%20d’écran%202025-11-14%20à%2000.33.25.png)
