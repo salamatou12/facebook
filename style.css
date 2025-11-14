@@ -1,0 +1,219 @@
+body {
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.container {
+    /* border-left: 100px; */
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.roti {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header hr {
+    width: 100%;
+}
+
+
+.roti input {
+    width: 50%;
+    height: 100%;
+    font-size: 1.4em;
+    padding-inline-start: 10px;
+    
+}
+
+.adress {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.jus {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: solid;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+.adress {
+    display: flex;
+    gap: 10px;
+}
+
+.adress input {
+    height: 50%;
+    padding: 10px;
+    font-size: 1.4em;
+}
+
+.sofi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.sofi input{
+    background: gray;
+}
+
+label {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.sofi select {
+    padding: 15px;
+    font-size: 1.4em;
+    width: 154px;
+
+}
+
+.dan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#hom,
+#perso,
+#fem {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+
+}
+
+button {
+    padding: 15px;
+    width: 100%;
+    font-size: 1.4em;
+    color: white;
+    background-color: rgb(47, 209, 104);
+    border: none;
+    border-radius: 8px;
+
+}
+
+footer p a {
+    color: blue;
+    text-decoration: none;
+
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+        .roti {
+        height: auto;
+        flex-direction: column;
+    }
+    .roti input{
+        width: 100%;
+        padding: 10px 0 10px 10px;
+    }
+    .sofi{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+
+    }
+     .sofi select{
+        width: 100%; 
+     }
+     .dan{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        
+     }
+       main{
+        width: 100%;
+    }
+ 
+ } 
+  
+ @media (max-width: 425px) {
+  
+    .container{
+        width:300px;
+        padding: 30px;
+    }
+
+    main{
+        width: 300px;
+    }
+    footer{
+        width: auto;
+    }
+       }
+
+ 
+       
+
+       
+
+            
+        
+
+
+    
+    
+    
+    
+
+        
+    
